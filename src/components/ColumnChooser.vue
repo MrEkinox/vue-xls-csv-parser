@@ -27,7 +27,7 @@
                 :allow-empty="false"
                 @select="onSelectChange"
               ></multiselect>
-              <p>{{ column.selection.description }}</p>
+              <p v-if="column.selection">{{ column.selection.description }}</p>
             </div>
           </div>
         </div>
@@ -139,6 +139,7 @@
       fillLocalUserColumns(newColumns) {
         this.localUserColumns = newColumns.map(column => ({
           name: column.name,
+          description: column.description,
           displayedData: _.take(column.data, 4),
           data: column.data,
           options: _.clone(this.columns),
