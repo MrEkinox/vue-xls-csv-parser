@@ -194,6 +194,4 @@
 </script>
 
 <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
-
-<style src="bootstrap/dist/css/bootstrap.css"></style>
-<style src="bootstrap-vue/dist/bootstrap-vue.css"></style>
+<style src="bootstrap/dist/css/bootstrap.min.css"></style>
