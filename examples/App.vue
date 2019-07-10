@@ -27,7 +27,7 @@
     data() {
       return {
         columns: [
-          { name: 'Student login', value: 'login' },
+          { name: 'Student login', value: 'login', description: "test" },
           { name: 'Student firstname', value: 'firstname' },
           { name: 'Student lastname', value: 'lastname' },
           { name: 'Other', value: 'other', isOptional: true },

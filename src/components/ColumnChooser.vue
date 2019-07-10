@@ -1,5 +1,5 @@
 <template>
-  <div class="catalog-column-chooser">
+   <div class="catalog-column-chooser">
     <a href="#" class="header-tool" @click="toggleHeaders">
       {{ withHeaders ? text[lang].file.withoutHeaders : text[lang].file.withHeaders }}
     </a>
@@ -27,8 +27,7 @@
                 :allow-empty="false"
                 @select="onSelectChange"
               ></multiselect>
-              <h1>Test</h1>
-              <p v-if="column.selection">{{ column.selection.description }}</p>
+              <p class="mt-2" v-if="column.selection">{{ column.selection.description }}</p>
             </div>
           </div>
         </div>
