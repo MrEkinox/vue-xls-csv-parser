@@ -204,6 +204,10 @@
   background-color: #409EFF;
   border-color: #409EFF;
 }
+.btn-primary {
+  background-color: #409EFF;
+  border-color: #409EFF;
+}
 a {
   color: #409EFF;
 }
