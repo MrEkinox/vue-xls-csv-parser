@@ -27,6 +27,7 @@
                 :allow-empty="false"
                 @select="onSelectChange"
               ></multiselect>
+              <h1>Test</h1>
               <p v-if="column.selection">{{ column.selection.description }}</p>
             </div>
           </div>
