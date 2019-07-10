@@ -1,5 +1,5 @@
 {
-  "name": "vue-xls-csv-parser",
+  "name": "vue-xls-csv-parser-fork",
   "version": "0.0.21",
   "description": "VueJS Xls/CSV parser with ability to match required columns",
   "author": "Victor Boissiere <contact@gitcommit.fr>",
