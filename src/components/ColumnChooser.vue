@@ -198,6 +198,6 @@
 
 <style scoped>
 .table>thead:first-child>tr:first-child>th {
-    border-top: 1 !important;
+    border-top: 1px !important;
 }
 </style>
