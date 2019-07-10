@@ -195,3 +195,9 @@
 
 <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
 <style src="bootstrap/dist/css/bootstrap.min.css"></style>
+
+<style scoped>
+.table>thead:first-child>tr:first-child>th {
+    border-top: 1 !important;
+}
+</style>
