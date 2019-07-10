@@ -26,7 +26,8 @@
                 :searchable="false"
                 :allow-empty="false"
                 @select="onSelectChange"
-              ></multiselect>
+              >{{ column.description }}</multiselect>
+              <p></p>
             </div>
           </div>
         </div>
