@@ -197,7 +197,17 @@
 <style src="bootstrap/dist/css/bootstrap.min.css"></style>
 
 <style scoped>
-.table>thead:first-child>tr:first-child>th {
-    border-top: 1px !important;
+.table > thead:first-child > tr:first-child > th {
+  border: 1px solid #ddd !important;
+}
+.panel-primary > .panel-heading {
+  background-color: #409EFF;
+  border-color: #409EFF;
+}
+a {
+  color: #409EFF;
+}
+.catalog-column-chooser {
+  font-weight: 500;
 }
 </style>

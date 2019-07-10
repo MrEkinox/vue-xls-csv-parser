@@ -73,6 +73,10 @@
   .dropzone-over {
     border: 1px solid red !important;
   }
+.btn-primary {
+  background-color: #409EFF;
+  border-color: #409EFF;
+}
 
   .dropzone-area {
     height: 200px;
