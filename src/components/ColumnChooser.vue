@@ -4,7 +4,7 @@
       {{ withHeaders ? text[lang].file.withoutHeaders : text[lang].file.withHeaders }}
     </a>
     <br><br>
-    <div v-for="(column, index) in localUserColumns">
+    <div v-for="(column, index) in localUserColumns" :key="index">
       <div class="row">
         <div class="col-md-6">
           <div class="panel panel-success" :class="{ 'panel-success': column.selection, 'panel-danger': !column.selection }">
@@ -26,8 +26,8 @@
                 :searchable="false"
                 :allow-empty="false"
                 @select="onSelectChange"
-              >{{ column.description }}</multiselect>
-              <p></p>
+              ></multiselect>
+              <p>{{ column.selection.description }}</p>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="data in column.displayedData">
+                    <tr v-for="data in column.displayedData" :key="data">
                       <td>{{ data }}</td>
                     </tr>
                   </tbody>
