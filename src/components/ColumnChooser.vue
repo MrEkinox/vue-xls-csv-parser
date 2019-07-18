@@ -45,7 +45,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="data in column.displayedData" :key="data">
+                    <tr v-for="(data, index) in column.displayedData" :key="index">
                       <td>{{ data }}</td>
                     </tr>
                   </tbody>
