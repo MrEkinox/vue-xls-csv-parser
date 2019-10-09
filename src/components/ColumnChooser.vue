@@ -115,6 +115,7 @@
         });
       },
       validate() {
+        console.log("IN VALIDATE FUNCTION");
         const hasMadeAllSelections = this.localUserColumns.every(column => column.selection !== null);
         // if (!hasMadeAllSelections) {
         //   this.showError(text[this.lang].error.selectColumn); // eslint-disable-line
