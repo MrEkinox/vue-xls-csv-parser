@@ -183,6 +183,7 @@
       };
     },
     mounted() {
+      console.log("IN MOUNTED FORK PROJECT");
       this.fillLocalUserColumns(this.userColumns);
       this.optionalValues = this.columns
         .filter(column => column.isOptional)
