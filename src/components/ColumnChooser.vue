@@ -116,9 +116,9 @@
       },
       validate() {
         const hasMadeAllSelections = this.localUserColumns.every(column => column.selection !== null);
-        if (!hasMadeAllSelections) {
-          this.showError(text[this.lang].error.selectColumn); // eslint-disable-line
-        } else {
+        // if (!hasMadeAllSelections) {
+        //   this.showError(text[this.lang].error.selectColumn); // eslint-disable-line
+        // } else {
           const selectedRequiredValues = _
             .map(this.localUserColumns, 'selection.value')
             .filter(value => this.requiredValues.indexOf(value) !== -1);
@@ -134,7 +134,7 @@
             data: localColumn.data,
           }));
           this.$emit('on-validate', this.results);
-        }
+        // }
       },
       fillLocalUserColumns(newColumns) {
         this.localUserColumns = newColumns.map(column => ({
