@@ -45,7 +45,7 @@ export default {
       title: 'Erreur',
       columnNumber: 'Vous n\'avez pas assez de colonnes. <br><b>Vous devez avoir les colonnes suivantes</b>: ',
       missingColumns: 'Les colonnes nécéssaires suivantes manquent:',
-      selectColumn: 'Vous devez remplir toutes les colonnes',
+      selectColumn: 'Vous devez remplir toutes les colonnes putain !',
       fileNumber: 'Vous devez choisir un fichier',
       fileSelection: 'Aucun fichier n\'a été selectionné',
       invalidFile: 'Ce fichier est invalide. Veuillez essayer avec un fichier CSV ou Xlsx',
